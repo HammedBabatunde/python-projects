@@ -1,6 +1,6 @@
 import random
 
-def guess_number(x):
+def guess(x):
     random_number = random.randint(1, x)
 
     guess = 0
@@ -17,5 +17,3 @@ def guess_number(x):
                 print('Sorry, guessed number is too high, try again')
 
     print(f"Yay, you have correctly guessed {random_number}") 
-
-guess_number(20)
