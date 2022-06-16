@@ -1,5 +1,3 @@
-
-
 from pydoc import classname
 from xmlrpc.client import ResponseError
 import requests 
